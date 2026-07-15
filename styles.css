@@ -1,10 +1,10 @@
 :root {
-  --bg: #f4f2ed;
-  --text: #26312d;
-  --muted: #66736d;
-  --line: #d9d5ca;
-  --link: #2f5f56;
-  --link-hover: #173f39;
+  --bg: #fff;
+  --text: #000;
+  --muted: #5c5c5c;
+  --line: #d8d8d8;
+  --link: #000;
+  --link-hover: #5c5c5c;
 }
 
 * {
@@ -26,8 +26,34 @@ body {
   padding: 96px 0 48px;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.logo-mark {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 56px;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.logo-mark img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  max-width: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: multiply;
+}
+
 .eyebrow {
-  margin: 0 0 24px;
+  margin: 0;
   color: var(--link);
   font-weight: 700;
 }
