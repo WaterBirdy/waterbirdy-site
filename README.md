@@ -10,15 +10,15 @@ Favor longevity over growth.
 
 ## Current Projects
 
-### OpenCanopy
-
-An open-source skill tree for real life.
-
 ### OpenSurf
 
 An open-source surf forecasting and ocean conditions platform.
 
-### Notes
+## Sunset Projects
+
+OpenCanopy was sunset in 2026 and has been removed from the WaterBirdy website.
+
+## Notes
 
 WaterBirdy is intentionally small.
 
